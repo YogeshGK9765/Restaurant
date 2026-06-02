@@ -1,0 +1,468 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Spice Garden Restaurant – Authentic Indian Cuisine. Experience the finest flavors of India in an unforgettable dining atmosphere." />
+  <meta name="keywords" content="restaurant, Indian food, spice garden, dining, cuisine, biryani, tandoori" />
+  <meta name="author" content="DigitalCraft" />
+  <title>Spice Garden – Authentic Indian Restaurant</title>
+
+  <link rel="icon" type="image/svg+xml" href="assets/favicon.svg" />
+  <link rel="stylesheet" href="style.css" />
+
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,700;0,900;1,400&family=DM+Sans:wght@300;400;500;600&family=Cormorant+Garamond:ital,wght@1,400;1,600&display=swap" rel="stylesheet" />
+</head>
+<body>
+
+  <!-- ░░ LOADER ░░ -->
+  <div class="loader" id="loader">
+    <div class="loader-ring"></div>
+    <span class="loader-text">Spice Garden</span>
+  </div>
+
+  <!-- ░░ NAVBAR ░░ -->
+  <nav class="navbar" id="navbar">
+    <a href="#home" class="nav-logo">
+      <img src="assets/logo.svg" alt="Spice Garden" class="nav-logo-img" />
+      <span>Spice Garden</span>
+    </a>
+    <ul class="nav-links" id="navLinks">
+      <li><a href="#home">Home</a></li>
+      <li><a href="#about">About</a></li>
+      <li><a href="#menu">Menu</a></li>
+      <li><a href="#features">Features</a></li>
+      <li><a href="#gallery">Gallery</a></li>
+      <li><a href="#testimonials">Reviews</a></li>
+      <li><a href="#faq">FAQ</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+    <div class="nav-actions">
+      <a href="https://wa.me/919765663222?text=Hello!%20I%20want%20to%20get%20this%20website%20for%20my%20business." target="_blank" class="btn-primary">🚀 Get This Website</a>
+      <button class="hamburger" id="hamburger" aria-label="Menu">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </nav>
+
+  <!-- ░░ HERO ░░ -->
+  <section class="hero" id="home">
+    <div class="hero-bg">
+      <div class="hero-orb orb1"></div>
+      <div class="hero-orb orb2"></div>
+      <div class="hero-orb orb3"></div>
+      <div class="spice-pattern"></div>
+    </div>
+    <div class="hero-content">
+      <div class="hero-badge animate-fade-up" data-delay="0">✦ Est. 2005 · Pune, Maharashtra</div>
+      <h1 class="hero-title animate-fade-up" data-delay="100">
+        A Journey of<br/>
+        <em>Flavours &amp;</em><br/>
+        Traditions
+      </h1>
+      <p class="hero-sub animate-fade-up" data-delay="200">
+        Experience authentic Indian cuisine crafted with heirloom spices, slow-fire techniques, and decades of culinary passion — served in an atmosphere as rich as our food.
+      </p>
+      <div class="hero-cta animate-fade-up" data-delay="300">
+        <a href="https://wa.me/919765663222?text=Hello!%20I%20want%20to%20get%20this%20website%20for%20my%20business." target="_blank" class="btn-primary btn-lg">🚀 Get This Website</a>
+        <a href="tel:+919765663222" class="btn-outline btn-lg">📞 Contact Now</a>
+      </div>
+      <div class="hero-stats animate-fade-up" data-delay="400">
+        <div class="stat"><span class="stat-num">20+</span><span class="stat-label">Years of Taste</span></div>
+        <div class="stat-div"></div>
+        <div class="stat"><span class="stat-num">150+</span><span class="stat-label">Dishes on Menu</span></div>
+        <div class="stat-div"></div>
+        <div class="stat"><span class="stat-num">50K+</span><span class="stat-label">Happy Customers</span></div>
+      </div>
+    </div>
+    <div class="hero-visual animate-fade-right" data-delay="200">
+      <div class="dish-card main-dish">
+        <div class="dish-glow"></div>
+        <div class="dish-emoji">🍛</div>
+        <div class="dish-info">
+          <span class="dish-name">Signature Biryani</span>
+          <span class="dish-price">₹349</span>
+        </div>
+      </div>
+      <div class="dish-card side-dish d1">
+        <div class="dish-emoji sm">🍢</div>
+        <span>Seekh Kebab</span>
+      </div>
+      <div class="dish-card side-dish d2">
+        <div class="dish-emoji sm">🫕</div>
+        <span>Dal Makhani</span>
+      </div>
+      <div class="dish-card side-dish d3">
+        <div class="dish-emoji sm">🥘</div>
+        <span>Butter Chicken</span>
+      </div>
+      <div class="rating-badge">
+        <span class="stars">★★★★★</span>
+        <span>4.9 Rating</span>
+      </div>
+    </div>
+    <div class="scroll-hint">
+      <div class="scroll-dot"></div>
+      <span>Scroll to explore</span>
+    </div>
+  </section>
+
+  <!-- ░░ MARQUEE ░░ -->
+  <div class="marquee-wrap">
+    <div class="marquee-track">
+      <span>🍛 Biryani</span><span>·</span>
+      <span>🍗 Tandoori</span><span>·</span>
+      <span>🥘 Curries</span><span>·</span>
+      <span>🫓 Naan</span><span>·</span>
+      <span>🍢 Kebabs</span><span>·</span>
+      <span>🍮 Kheer</span><span>·</span>
+      <span>🥗 Raita</span><span>·</span>
+      <span>☕ Masala Chai</span><span>·</span>
+      <span>🍛 Biryani</span><span>·</span>
+      <span>🍗 Tandoori</span><span>·</span>
+      <span>🥘 Curries</span><span>·</span>
+      <span>🫓 Naan</span><span>·</span>
+      <span>🍢 Kebabs</span><span>·</span>
+      <span>🍮 Kheer</span><span>·</span>
+      <span>🥗 Raita</span><span>·</span>
+      <span>☕ Masala Chai</span><span>·</span>
+    </div>
+  </div>
+
+  <!-- ░░ ABOUT ░░ -->
+  <section class="about section" id="about">
+    <div class="container">
+      <div class="about-grid">
+        <div class="about-visual reveal">
+          <div class="about-img-wrap">
+            <div class="about-img-bg"></div>
+            <div class="about-img-main">🏮</div>
+            <div class="about-tag tag1">🌿 Fresh Ingredients</div>
+            <div class="about-tag tag2">👨‍🍳 Master Chefs</div>
+            <div class="about-tag tag3">🔥 Slow Cooked</div>
+          </div>
+        </div>
+        <div class="about-text reveal">
+          <div class="section-label">Our Story</div>
+          <h2 class="section-title">Where Every Meal Tells <em>A Story</em></h2>
+          <p>Founded in 2005, Spice Garden began as a small family kitchen in Pune with a single mission — to serve honest, soul-warming Indian food that tastes like home. Today, we proudly serve thousands of guests every month from our spacious, fully air-conditioned restaurant.</p>
+          <p>Our recipes have been passed down through three generations. Every dish is prepared fresh daily using hand-picked spices sourced directly from Kerala, Rajasthan, and the Deccan plateau.</p>
+          <div class="about-features">
+            <div class="af-item"><span class="af-icon">🌱</span><div><strong>Farm to Table</strong><p>Locally sourced vegetables daily</p></div></div>
+            <div class="af-item"><span class="af-icon">🫙</span><div><strong>In-House Spice Blends</strong><p>Secret masalas ground fresh</p></div></div>
+            <div class="af-item"><span class="af-icon">❤️</span><div><strong>Made with Love</strong><p>Every plate, personal attention</p></div></div>
+          </div>
+          <a href="tel:+919765663222" class="btn-primary">📞 Contact Now</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ░░ MENU ░░ -->
+  <section class="menu section" id="menu">
+    <div class="container">
+      <div class="section-header reveal">
+        <div class="section-label">Our Menu</div>
+        <h2 class="section-title">Crafted with <em>Passion</em></h2>
+        <p class="section-sub">Explore our curated menu of over 150 dishes — from royal biryanis to street-style chaat</p>
+      </div>
+      <div class="menu-tabs reveal">
+        <button class="tab active" data-tab="starters">Starters</button>
+        <button class="tab" data-tab="mains">Main Course</button>
+        <button class="tab" data-tab="breads">Breads &amp; Rice</button>
+        <button class="tab" data-tab="desserts">Desserts</button>
+      </div>
+      <div class="menu-grid" id="menuGrid">
+        <!-- JS renders cards here -->
+      </div>
+    </div>
+  </section>
+
+  <!-- ░░ FEATURES ░░ -->
+  <section class="features section" id="features">
+    <div class="features-bg"></div>
+    <div class="container">
+      <div class="section-header reveal">
+        <div class="section-label">Why Choose Us</div>
+        <h2 class="section-title">The Spice Garden <em>Experience</em></h2>
+      </div>
+      <div class="features-grid">
+        <div class="feature-card reveal">
+          <div class="fc-icon">🍽️</div>
+          <h3>Fine Dining Ambience</h3>
+          <p>Elegant interiors with warm lighting, private booths, and live ghazal music on weekends for a complete dining experience.</p>
+        </div>
+        <div class="feature-card reveal">
+          <div class="fc-icon">🚀</div>
+          <h3>Fast Home Delivery</h3>
+          <p>Order via WhatsApp or call us. We deliver hot, fresh food within 45 minutes — packaged to retain every drop of flavour.</p>
+        </div>
+        <div class="feature-card reveal">
+          <div class="fc-icon">🎂</div>
+          <h3>Event Catering</h3>
+          <p>Weddings, corporate lunches, birthday parties — our expert catering team handles up to 1000 guests with grace.</p>
+        </div>
+        <div class="feature-card reveal">
+          <div class="fc-icon">🌿</div>
+          <h3>Pure Veg Options</h3>
+          <p>A dedicated veg kitchen ensures zero cross-contamination. Jain options also available on request.</p>
+        </div>
+        <div class="feature-card reveal">
+          <div class="fc-icon">👑</div>
+          <h3>Royal Thali Feast</h3>
+          <p>Our premium unlimited thali — 12 dishes, 4 rotis, 2 desserts — is an institution in Pune's food scene.</p>
+        </div>
+        <div class="feature-card reveal">
+          <div class="fc-icon">🏆</div>
+          <h3>Award Winning</h3>
+          <p>Voted "Best Indian Restaurant in Pune" three years in a row by Times Food &amp; Nightlife Awards.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ░░ GALLERY ░░ -->
+  <section class="gallery section" id="gallery">
+    <div class="container">
+      <div class="section-header reveal">
+        <div class="section-label">Gallery</div>
+        <h2 class="section-title">Food That <em>Speaks</em></h2>
+        <p class="section-sub">A visual feast before the real one</p>
+      </div>
+      <div class="gallery-grid reveal">
+        <div class="gallery-item g-large"><div class="gi-inner">🍛<span>Dum Biryani</span></div></div>
+        <div class="gallery-item"><div class="gi-inner">🍗<span>Tandoori Platter</span></div></div>
+        <div class="gallery-item"><div class="gi-inner">🫕<span>Dal Makhani</span></div></div>
+        <div class="gallery-item g-wide"><div class="gi-inner">🥘<span>Butter Chicken Masala</span></div></div>
+        <div class="gallery-item"><div class="gi-inner">🍢<span>Seekh Kebab</span></div></div>
+        <div class="gallery-item"><div class="gi-inner">🍮<span>Gulab Jamun</span></div></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ░░ TESTIMONIALS ░░ -->
+  <section class="testimonials section" id="testimonials">
+    <div class="container">
+      <div class="section-header reveal">
+        <div class="section-label">Guest Reviews</div>
+        <h2 class="section-title">What Our Guests <em>Say</em></h2>
+      </div>
+      <div class="testi-slider reveal" id="testiSlider">
+        <div class="testi-track" id="testiTrack">
+          <div class="testi-card">
+            <div class="tc-stars">★★★★★</div>
+            <p>"The biryani here is absolutely divine. I've been coming here for 10 years and it never disappoints. The Dal Makhani is rich, slow-cooked perfection."</p>
+            <div class="tc-author"><div class="tc-avatar">🧑</div><div><strong>Rahul Sharma</strong><span>Pune · Google Review</span></div></div>
+          </div>
+          <div class="testi-card">
+            <div class="tc-stars">★★★★★</div>
+            <p>"We booked their catering for our wedding — 500 guests. Everything was flawless. The paneer dishes were outstanding and the dessert spread was incredible."</p>
+            <div class="tc-author"><div class="tc-avatar">👩</div><div><strong>Priya Deshmukh</strong><span>Nashik · Zomato Review</span></div></div>
+          </div>
+          <div class="testi-card">
+            <div class="tc-stars">★★★★★</div>
+            <p>"Best restaurant in Pune, period. The thali is unbeatable value. We ordered for our office and every single person loved it. Will order again!"</p>
+            <div class="tc-author"><div class="tc-avatar">🧔</div><div><strong>Amit Kulkarni</strong><span>Pune · Swiggy Review</span></div></div>
+          </div>
+          <div class="testi-card">
+            <div class="tc-stars">★★★★★</div>
+            <p>"Took my parents here for their anniversary. The ambience, the service, the food — everything was top-notch. The masala chai at the end was the cherry on top!"</p>
+            <div class="tc-author"><div class="tc-avatar">👩‍🦱</div><div><strong>Sneha Patil</strong><span>Mumbai · Google Review</span></div></div>
+          </div>
+        </div>
+        <div class="testi-controls">
+          <button class="testi-btn" id="testiPrev">‹</button>
+          <div class="testi-dots" id="testiDots"></div>
+          <button class="testi-btn" id="testiNext">›</button>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ░░ FAQ ░░ -->
+  <section class="faq section" id="faq">
+    <div class="container faq-container">
+      <div class="section-header reveal">
+        <div class="section-label">FAQ</div>
+        <h2 class="section-title">Common <em>Questions</em></h2>
+      </div>
+      <div class="faq-list reveal">
+        <div class="faq-item">
+          <button class="faq-q">What are your opening hours? <span class="faq-arrow">▾</span></button>
+          <div class="faq-a"><p>We are open every day from <strong>11:00 AM to 11:30 PM</strong>. On weekends and public holidays, we may extend our hours. Call us to confirm.</p></div>
+        </div>
+        <div class="faq-item">
+          <button class="faq-q">Do you offer home delivery? <span class="faq-arrow">▾</span></button>
+          <div class="faq-a"><p>Yes! We deliver within a <strong>10 km radius</strong> of our restaurant. You can order via WhatsApp, phone call, or Swiggy/Zomato. Minimum order: ₹300.</p></div>
+        </div>
+        <div class="faq-item">
+          <button class="faq-q">Do you have pure vegetarian options? <span class="faq-arrow">▾</span></button>
+          <div class="faq-a"><p>Absolutely. We have a <strong>dedicated vegetarian kitchen</strong>. Over 60% of our menu is vegetarian. Jain options are available — just let us know when ordering.</p></div>
+        </div>
+        <div class="faq-item">
+          <button class="faq-q">Can I book a table in advance? <span class="faq-arrow">▾</span></button>
+          <div class="faq-a"><p>Yes, we accept table reservations. Call us at <strong>+91 97656 63222</strong> or WhatsApp us. We recommend booking a day in advance for weekends.</p></div>
+        </div>
+        <div class="faq-item">
+          <button class="faq-q">Do you provide catering services? <span class="faq-arrow">▾</span></button>
+          <div class="faq-a"><p>Yes! We cater for all events — weddings, corporate events, birthday parties, pooja ceremonies. We handle <strong>50 to 2000+ guests</strong>. Contact us for a custom quote.</p></div>
+        </div>
+        <div class="faq-item">
+          <button class="faq-q">What payment methods do you accept? <span class="faq-arrow">▾</span></button>
+          <div class="faq-a"><p>We accept <strong>Cash, UPI (GPay, PhonePe, Paytm), Debit/Credit Cards, and Net Banking</strong>. QR code available at the counter and for delivery orders.</p></div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ░░ TEMPLATE INFO ░░ -->
+  <section class="template-info section" id="template">
+    <div class="container">
+      <div class="ti-card reveal">
+        <div class="ti-badge">🏷️ Template Information</div>
+        <h2>Get This Website for Your Business</h2>
+        <p class="ti-sub">This exact design can be customized for your business in 24–48 hours</p>
+        <div class="ti-price">₹ 2,999<span>/one-time</span></div>
+        <div class="ti-includes">
+          <div class="ti-feature">✔ Same Premium Design</div>
+          <div class="ti-feature">✔ Mobile Responsive</div>
+          <div class="ti-feature">✔ WhatsApp Integration</div>
+          <div class="ti-feature">✔ Contact Section</div>
+          <div class="ti-feature">✔ GitHub Pages Hosting</div>
+          <div class="ti-feature">✔ Your Name, Logo &amp; Details</div>
+        </div>
+        <p class="ti-note">Advanced Customizations Available At Additional Cost</p>
+        <a href="https://wa.me/919765663222?text=Hello!%20I%20want%20to%20get%20this%20website%20for%20my%20business." target="_blank" class="btn-primary btn-lg">🚀 Get This Website on WhatsApp</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- ░░ CONTACT ░░ -->
+  <section class="contact section" id="contact">
+    <div class="container">
+      <div class="section-header reveal">
+        <div class="section-label">Contact Us</div>
+        <h2 class="section-title">Visit or <em>Call Us</em></h2>
+      </div>
+      <div class="contact-grid">
+        <div class="contact-info reveal">
+          <div class="ci-item">
+            <span class="ci-icon">📍</span>
+            <div>
+              <strong>Address</strong>
+              <p>Shop No. 12, Deccan Gymkhana,<br/>Near FC Road, Pune – 411 004, Maharashtra</p>
+            </div>
+          </div>
+          <div class="ci-item">
+            <span class="ci-icon">📞</span>
+            <div>
+              <strong>Phone</strong>
+              <!-- REPLACE: Owner phone number -->
+              <p><a href="tel:+919765663222">+91 97656 63222</a></p>
+            </div>
+          </div>
+          <div class="ci-item">
+            <span class="ci-icon">📧</span>
+            <div>
+              <strong>Email</strong>
+              <!-- REPLACE: Owner email -->
+              <p><a href="mailto:yogeshkalyankar9765@gmail.com">yogeshkalyankar9765@gmail.com</a></p>
+            </div>
+          </div>
+          <div class="ci-item">
+            <span class="ci-icon">🕐</span>
+            <div>
+              <strong>Hours</strong>
+              <p>Mon – Sun: 11:00 AM – 11:30 PM</p>
+            </div>
+          </div>
+          <a href="https://wa.me/919765663222?text=Hello%20Spice%20Garden!%20I%20want%20to%20make%20a%20reservation." target="_blank" class="btn-whatsapp">
+            <svg viewBox="0 0 24 24" width="20" height="20" fill="currentColor"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/></svg>
+            WhatsApp Us
+          </a>
+        </div>
+        <div class="map-placeholder reveal">
+          <div class="map-inner">
+            <div class="map-icon">📍</div>
+            <p>Spice Garden Restaurant</p>
+            <p>Deccan Gymkhana, Pune</p>
+            <a href="https://maps.google.com/?q=Deccan+Gymkhana+Pune" target="_blank" class="btn-outline">Open in Google Maps</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ░░ DIGITALCRAFT PORTFOLIO ░░ -->
+  <section class="dc-portfolio">
+    <div class="container">
+      <div class="dc-inner reveal">
+        <img src="assets/logo.svg" alt="DigitalCraft" class="dc-logo" />
+        <div class="dc-text">
+          <h3>Designed &amp; Developed by <strong>DigitalCraft</strong></h3>
+          <p>We build premium websites for businesses across India. Get your own today!</p>
+        </div>
+        <div class="dc-links">
+          <a href="https://yogeshgk9765.github.io/My-Portfolio/" target="_blank" title="Portfolio">🌐 Portfolio</a>
+          <a href="https://github.com/yogeshgk9765" target="_blank" title="GitHub">🐙 GitHub</a>
+          <a href="https://www.instagram.com/yogesh_g_kalyankar" target="_blank" title="Instagram">📸 Instagram</a>
+          <a href="https://www.linkedin.com/in/yogesh-kalyankar/" target="_blank" title="LinkedIn">💼 LinkedIn</a>
+          <a href="https://whatsapp.com/channel/0029VbCa1zkH5JLxEW3deH3u" target="_blank" title="WhatsApp Channel">📲 WhatsApp Channel</a>
+        </div>
+        <a href="https://wa.me/919765663222?text=Hello!%20I%20want%20to%20get%20this%20website%20for%20my%20business." target="_blank" class="btn-primary">🚀 Get This Website</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- ░░ FOOTER ░░ -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-top">
+        <div class="footer-brand">
+          <img src="assets/logo.svg" alt="Spice Garden" class="footer-logo" />
+          <h3>Spice Garden</h3>
+          <p>Authentic Indian Cuisine<br/>We Build Digital Success</p>
+        </div>
+        <div class="footer-links-col">
+          <h4>Quick Links</h4>
+          <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#menu">Menu</a></li>
+            <li><a href="#contact">Contact</a></li>
+          </ul>
+        </div>
+        <div class="footer-links-col">
+          <h4>Services</h4>
+          <ul>
+            <li><a href="#menu">Dine-In</a></li>
+            <li><a href="#menu">Takeaway</a></li>
+            <li><a href="#features">Catering</a></li>
+            <li><a href="#features">Delivery</a></li>
+          </ul>
+        </div>
+        <div class="footer-contact-col">
+          <h4>Get In Touch</h4>
+          <!-- REPLACE: Owner details below -->
+          <p>📞 <a href="tel:+919765663222">+91 97656 63222</a></p>
+          <p>📧 <a href="mailto:yogeshkalyankar9765@gmail.com">yogeshkalyankar9765@gmail.com</a></p>
+          <p>📍 Deccan Gymkhana, Pune</p>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <p>© 2026 Spice Garden. Template by <a href="https://yogeshgk9765.github.io/My-Portfolio/" target="_blank">DigitalCraft</a> — Yogesh G. Kalyankar</p>
+      </div>
+    </div>
+  </footer>
+
+  <!-- ░░ FLOATING WHATSAPP ░░ -->
+  <a href="https://wa.me/919765663222?text=Hello%20Spice%20Garden!%20I%20want%20to%20make%20a%20reservation." target="_blank" class="float-wa" aria-label="WhatsApp">
+    <svg viewBox="0 0 24 24" fill="currentColor"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/></svg>
+  </a>
+
+  <script src="script.js"></script>
+</body>
+</html>
